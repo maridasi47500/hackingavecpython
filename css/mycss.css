@@ -1,0 +1,47 @@
+.field, .actions {
+  float:left;
+  clear:both;
+}
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+body {
+max-width:867px;
+font-size:50px;
+}
+.field,.field > *,form,body {
+width:100%;
+}
+input,textarea{
+min-height:40px;
+font-size:40px;
+}
+textarea {
+min-height:200px;
+}
+input[type=file] {
+min-height:200px;
+}
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+

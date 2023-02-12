@@ -1,0 +1,21 @@
+<h1>Nouveau script</h1>
+
+<form action="/createscript" method="post">
+<div class="field">
+  <label for="file">charger un script python</label>
+  <input type="file" onchange="previewfile();return false;" name="file" id="file"/>
+</div>
+<div class="field">
+  <label for="title">titre</label>
+  <input type="text" name="title" id="title"/>
+
+</div>
+<div class="field">
+  <label for="content">aperçu</label>
+
+  <textarea name="content" class="content"></textarea>
+</div>
+<div class="actions">
+<input type="submit" name="submit" value="ok" id="value" />
+</div>
+</form>
