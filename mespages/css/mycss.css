@@ -2,6 +2,18 @@
   float:left;
   clear:both;
 }
+footer {
+	width: 100%;
+	display: block;
+	position: relative;
+	float: left;
+	clear: both;
+}
+input,textarea {
+	min-width:300px;
+	min-height:40px;
+	font-size:40px;
+}
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 375px) 
